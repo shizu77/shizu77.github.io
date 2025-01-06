@@ -1,0 +1,107 @@
+.page {
+    width: 960px;
+    height: 750px;
+    background-image: url('../images/Camo.jpg');
+    border: solid 3px black;
+}
+.animal-table {
+  border: 3px solid black;
+  margin-bottom: 10px;
+  height: 120px;
+  width: 900px;
+  margin-left: 5px;
+  text-align: center;
+  background-color: rgb(65, 121, 33);
+  margin-top: 15px;
+  
+}
+.homeheadingbox {
+  margin: 30px 255px;
+  height: 55px;
+  width: 450px;
+  background-color: rgb(65, 121, 33);
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  border: solid black 3px;
+}
+.navigation-table{
+    width: 150;
+    height: 467px;
+    background-color: rgb(65, 121, 33);
+    border: solid 3px;
+    margin-top: 0px;
+    text-align: left;
+    margin-left: 5px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .main {
+    border: 3px solid black;
+    margin-bottom: 10px;
+    height: 120px;
+    width: 900px;
+    margin-left: 5px;
+    text-align: left;
+    background-color: rgb(65, 121, 33);
+    margin-top: 20px;
+  }
+  .picture {
+    border: 3px solid black;
+    margin-bottom: 10px;
+    height: 467px;
+    width: 736px;
+    margin-left: 158px;
+    text-align: left;
+    float: left;
+    z-index: 1;
+    position: absolute; left: -20px; top: 131px; 
+    background-color: beige;
+  }
+  a:link {
+    color: #ff5e00;
+    text-decoration: none;
+  }
+  a:active {
+    color: cyan;
+  }
+  a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  a:visited {
+    color: black;
+  }
+  .basebackdrop {
+    background-color: rgb(65, 121, 33);
+  }
+  .caption {
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+
+  html {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  .page {
+    width: 100%;
+    height: 1000px;
+    background-image: url('../images/Camo.jpg');
+    border: solid 3px black;
+  }
+  .headingbox {
+      margin: 30px auto 30px auto;
+      height: 55px;
+      width: 240px;
+      background-color: rgb(65, 121, 33);
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      border: solid black 3px;
+  }
+  

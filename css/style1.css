@@ -1,0 +1,91 @@
+/**************************************
+STATIC LAYOUT CSS
+**************************************/
+
+.wrapper {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  header {
+      width: 960px;
+  }
+  
+  nav, section {
+    float: left;
+  }
+  
+  nav {
+    width: 150px;
+    margin-right: 10px;
+  }
+  
+  section {
+    width: 800px;
+  }
+  
+  
+  
+  /**************************************
+  CSS TO MAKE THE EXAMPLE LOOK PRETTY
+  **************************************/
+  
+  *, *:before, *:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: rgb(65, 121, 33);
+    color: #ff5e00;
+    font-family: Helvetica;
+    text-align: center;
+    margin: 0;
+  }
+  
+  header,
+  nav,
+  section {
+    border: 1px solid rgb(255, 102, 0);
+    margin-bottom: 10px;
+    border-radius: 3px;
+  }
+  
+  header {
+    padding: 20px 0;
+  }
+  
+  section {
+    padding: 200px 0;
+  }
+  .navigation-table{
+    width: 150;
+    height: 420px;
+  }
+th{
+  text-align: left;
+}
+a:link {
+  color: #ff5e00;
+  text-decoration: none;
+}
+a:active {
+  color: cyan;
+}
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+a:visited {
+  color: black;
+}
+.main {
+  border: 1px solid rgb(255, 102, 0);
+  margin-bottom: 10px;
+  border-radius: 3px;
+  height: 420px;
+  width: 800px;
+  margin-left: 158px;
+  text-align: left;
+}
